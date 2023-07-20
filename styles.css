@@ -55,7 +55,7 @@ nav li a {
     justify-content: space-between;
     align-items: center;
 
-   
+
 }
 
 .img-one {
@@ -109,4 +109,82 @@ nav li a {
     border-radius: 48px;
     background: #4EC5F7;
     border: 0px;
+}
+
+/* Section Two */
+.section-two {
+    text-align: center;
+}
+
+.title-two {
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.span-one {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.p-two {
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    margin-top: 0px;
+}
+
+/* section two cards */
+/* styles.css */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 100px
+}
+
+.card {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.card {
+    position: relative;
+}
+
+.card:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), lightgray 50%
+}
+
+.play-button:hover {
+    background-color: #0056b3;
+}
+
+.play-button {
+    background-color: palevioletred;
 }
